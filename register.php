@@ -1,7 +1,7 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-  include 'partials/dbconnect.php';
+  include 'dbconnect.php';
 //   $showSuccess = false;
   $username = $_POST["username"];
   $firstname = $_POST["firstname"];
