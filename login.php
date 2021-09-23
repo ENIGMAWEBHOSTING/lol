@@ -1,7 +1,7 @@
 <?php
 if (isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] === "POST") {
 
-    include 'partials/dbconnect.php';
+    include 'dbconnect.php';
     //   $showSuccess = false;
 
     if (isset($_POST["username"], $_POST["email"], $_POST["password"])) {
